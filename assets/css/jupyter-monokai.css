@@ -380,6 +380,12 @@ div.modal-footer > button:hover {
   border-top: none;
 }
 
+.modal-backdrop,
+.modal-backdrop.in {
+  opacity: 0.85;
+  background-color: notebook-bg;
+}
+
 div.panel,
 .panel {
   font-family: sans-serif;
@@ -389,6 +395,11 @@ div.panel,
   margin-bottom: 14px;
   border: 0;
   box-shadow: none;
+}
+
+.modal .modal-dialog {
+  min-width: 950px;
+  margin: 50px auto;
 }
 
 input,
