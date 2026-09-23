@@ -2,14 +2,26 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Teaching assistant roles and academic contributions
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Teaching Assistant
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+### 2026 – MBA in AI and Big Data (USP)
 
-{% include courses.liquid %}
+Teaching Assistant for:
+- **Content-Based Image Retrieval**
+- **Large-Scale Parallel Data Management and Processing**
+
+### 2026 – Teaching Improvement Program (PAE), USP
+
+Teaching Assistant for:
+- **Database Laboratory**
+
+---
+
+## Research Mentoring
+
+Active member of the [Database and Image Group (GBDI)](https://gbdi.icmc.usp.br/), collaborating on research projects in query processing, similarity search, and data mining.

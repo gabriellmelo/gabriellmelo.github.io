@@ -2,33 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://gbdi.icmc.usp.br/'>Database and Image Group (GBDI)</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: perfil-gabriel.png
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <div style="text-align: center;">
+      <p>
+        ICMC – USP<br>
+         São Carlos, SP - Brazil<br>
+        <a href="mailto:melogabriel@usp.br">melogabriel@usp.br</a>
+      </p>
+    </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Master's student in Computer Science and Computational Mathematics at the [University of São Paulo (USP)](https://www.usp.br/), member of the [Database and Image Group (GBDI)](https://gbdi.icmc.usp.br/) at the Institute of Mathematics and Computer Science (ICMC). FAPESP scholarship recipient with a project developed within the Center for Data Science for Public Statistics (CCDEP), in collaboration with the [SEADE Foundation](https://www.seade.gov.br/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**Research interests:** Databases, data mining, query processing and optimization, similarity search.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Current research:** Extending the GroupJoin operator to accelerate similarity queries in relational databases, under the supervision of Prof. Caetano Traina Junior.
+
